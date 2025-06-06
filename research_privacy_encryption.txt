@@ -1,0 +1,25 @@
+# Research Report: ProtonVPN Privacy and Encryption Features
+
+## 1. Introduction
+ProtonVPN is a privacy-centric Virtual Private Network service developed by the team behind ProtonMail. It emphasizes transparency, strong encryption, and an open-source model to protect user data.
+
+## 2. Encryption Technologies Used
+- **Protocols Supported:** WireGuard, OpenVPN, IKEv2/IPSec
+- **Encryption:** AES-256 for OpenVPN/IPSec, ChaCha20 for WireGuard
+- **Authentication:** SHA-512 (OpenVPN), BLAKE2 (WireGuard)
+- **Key Exchange:** Perfect Forward Secrecy via Diffie-Hellman/ECDH
+
+## 3. Privacy Features
+- **No-Logs Policy:** ProtonVPN does not store user activity or connection logs.
+- **Swiss Jurisdiction:** Located in Switzerland, outside EU/US surveillance alliances.
+- **Secure Core:** Routes traffic through multiple servers for additional anonymity.
+- **DNS Leak Protection:** Ensures DNS requests are encrypted and resolved by Proton's own DNS.
+- **Kill Switch and Always-On VPN:** Prevents data leakage when the connection drops.
+
+## 4. Free Plan Limitations
+- Access to a limited number of servers (e.g., US, Netherlands, Japan)
+- No Secure Core or Tor over VPN
+- Medium to high server load can impact speed
+
+## 5. Conclusion
+ProtonVPN provides robust encryption and reliable privacy tools even in its free plan, making it one of the best options for users looking to protect their identity online without spending money.
